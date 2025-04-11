@@ -83,62 +83,62 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
     const news = newsData; // Using mock data for now
 
     return (
-        <div className="min-h-screen bg-gray-50" data-oid="v5n1_r6">
+        <div className="min-h-screen bg-gray-50" data-oid="0zpr-_e">
             {/* Header */}
-            <header className="bg-white shadow-sm" data-oid="liueps9">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="iqb4_gb">
-                    <div className="flex justify-between items-center py-4" data-oid="55hmy6m">
-                        <div className="flex items-center" data-oid="6:oz-v4">
+            <header className="bg-white shadow-sm" data-oid="rkt4uyf">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="pbzmav:">
+                    <div className="flex justify-between items-center py-4" data-oid="l:atbak">
+                        <div className="flex items-center" data-oid="7f:_.eu">
                             <Link
                                 href="/"
                                 className="text-2xl font-bold text-blue-700"
-                                data-oid="tgmumwl"
+                                data-oid="nakzq4y"
                             >
                                 河北高考志愿填报
                             </Link>
                         </div>
-                        <nav className="hidden md:flex space-x-8" data-oid="wkk0v1s">
+                        <nav className="hidden md:flex space-x-8" data-oid="qwsvvyf">
                             <Link
                                 href="/"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="cccm738"
+                                data-oid="_b.bde-"
                             >
                                 首页
                             </Link>
                             <Link
                                 href="/#universities"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="vfz7a9u"
+                                data-oid="1lwk015"
                             >
                                 高校信息查询
                             </Link>
                             <Link
                                 href="/#scoreLines"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="w3mi3rg"
+                                data-oid="qnuqp14"
                             >
                                 历年分数线
                             </Link>
                             <Link
                                 href="/#scoreRankings"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="81o4:to"
+                                data-oid="o6a88gn"
                             >
                                 一分一档查询
                             </Link>
                             <Link
                                 href="/#admissionPlans"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="k1iuacl"
+                                data-oid="rlqec04"
                             >
                                 招生计划查询
                             </Link>
                         </nav>
-                        <div data-oid="lq8z.l:">
+                        <div data-oid="jpg5cui">
                             <Link
                                 href="/login"
                                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                data-oid="6jse0hr"
+                                data-oid=".oyh.-k"
                             >
                                 登录/注册
                             </Link>
@@ -148,60 +148,60 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
             </header>
 
             {/* Main content */}
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="jh3711l">
-                <div className="md:flex md:space-x-8" data-oid="_mcks73">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="m-vaini">
+                <div className="md:flex md:space-x-8" data-oid="0o8e9ly">
                     {/* Main content area */}
-                    <div className="md:w-2/3" data-oid="n0an45d">
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="4.69-gt">
-                            <div className="mb-6" data-oid="kry21b8">
+                    <div className="md:w-2/3" data-oid="89nujy.">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="3r0qof2">
+                            <div className="mb-6" data-oid="o3d:afq">
                                 <h1
                                     className="text-3xl font-bold text-gray-900 mb-2"
-                                    data-oid="__e58e0"
+                                    data-oid="eopp_r-"
                                 >
                                     {news.title}
                                 </h1>
                                 <div
                                     className="flex flex-wrap items-center text-sm text-gray-500 gap-4"
-                                    data-oid="6k-vmq:"
+                                    data-oid="xjit9ry"
                                 >
-                                    <span data-oid="7xc0hlq">{news.date}</span>
+                                    <span data-oid="wj.wf5m">{news.date}</span>
                                     <span
                                         className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full"
-                                        data-oid="m4q-82v"
+                                        data-oid="puna-px"
                                     >
                                         {news.category}
                                     </span>
-                                    <span data-oid="gionisc">来源：{news.author}</span>
+                                    <span data-oid="jpr_5s6">来源：{news.author}</span>
                                 </div>
                             </div>
 
                             <div
                                 className="prose prose-blue max-w-none"
                                 dangerouslySetInnerHTML={{ __html: news.content }}
-                                data-oid="5imn.t9"
+                                data-oid="oau_mwj"
                             />
 
-                            <div className="mt-8 pt-6 border-t border-gray-200" data-oid="xi1:7po">
+                            <div className="mt-8 pt-6 border-t border-gray-200" data-oid="b2_2-gv">
                                 <div
                                     className="flex justify-between items-center"
-                                    data-oid="xvnlssq"
+                                    data-oid="8ly989n"
                                 >
                                     <button
                                         className="text-blue-600 hover:text-blue-800"
-                                        data-oid="9z3aibf"
+                                        data-oid=".twry54"
                                     >
                                         分享
                                     </button>
-                                    <div className="flex space-x-2" data-oid="qd2_bix">
+                                    <div className="flex space-x-2" data-oid="tcrzdt9">
                                         <button
                                             className="bg-blue-50 text-blue-600 px-3 py-1 rounded-md hover:bg-blue-100"
-                                            data-oid="o2nelty"
+                                            data-oid="jgeihej"
                                         >
                                             收藏
                                         </button>
                                         <button
                                             className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700"
-                                            data-oid="ya-xwp:"
+                                            data-oid="3uj87um"
                                         >
                                             打印
                                         </button>
@@ -212,86 +212,86 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
                     </div>
 
                     {/* Sidebar */}
-                    <div className="md:w-1/3 mt-6 md:mt-0" data-oid="qtgk_-_">
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="tsyp-ad">
-                            <h3 className="text-lg font-medium mb-4" data-oid="c:czmyx">
+                    <div className="md:w-1/3 mt-6 md:mt-0" data-oid="rtqvn5u">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="yvb7-.e">
+                            <h3 className="text-lg font-medium mb-4" data-oid="a8e3xui">
                                 相关资讯
                             </h3>
-                            <div className="space-y-4" data-oid="j:g--50">
+                            <div className="space-y-4" data-oid="x29cqym">
                                 {news.relatedNews.map((item) => (
                                     <div
                                         key={item.id}
                                         className="border-b border-gray-100 pb-4 last:border-0 last:pb-0"
-                                        data-oid=".5.7:qt"
+                                        data-oid="73pjur4"
                                     >
                                         <Link
                                             href={`/news/${item.id}`}
                                             className="text-blue-600 hover:text-blue-800 font-medium"
-                                            data-oid="odh_pk4"
+                                            data-oid="0t_76g0"
                                         >
                                             {item.title}
                                         </Link>
                                         <div
                                             className="flex justify-between mt-1 text-sm text-gray-500"
-                                            data-oid="jcfxyyp"
+                                            data-oid="_shjsr2"
                                         >
-                                            <span data-oid="vcjsf8k">{item.date}</span>
-                                            <span data-oid="ivg7zly">{item.category}</span>
+                                            <span data-oid="p.hdqke">{item.date}</span>
+                                            <span data-oid="c--_c43">{item.category}</span>
                                         </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
 
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid=".0pqi.z">
-                            <h3 className="text-lg font-medium mb-4" data-oid="9mrc4pp">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="pxdeqj8">
+                            <h3 className="text-lg font-medium mb-4" data-oid="s6n:ggd">
                                 快速导航
                             </h3>
-                            <div className="space-y-2" data-oid="xwb0j9:">
+                            <div className="space-y-2" data-oid="e8-mk6u">
                                 <Link
                                     href="/#universities"
                                     className="block text-blue-600 hover:text-blue-800"
-                                    data-oid="n.4f5:."
+                                    data-oid="7jm8epp"
                                 >
                                     高校信息查询
                                 </Link>
                                 <Link
                                     href="/#scoreLines"
                                     className="block text-blue-600 hover:text-blue-800"
-                                    data-oid="qmis7gu"
+                                    data-oid="-208y7t"
                                 >
                                     历年分数线查询
                                 </Link>
                                 <Link
                                     href="/#scoreRankings"
                                     className="block text-blue-600 hover:text-blue-800"
-                                    data-oid="srlfmzx"
+                                    data-oid="br081tz"
                                 >
                                     一分一档查询
                                 </Link>
                                 <Link
                                     href="/#admissionPlans"
                                     className="block text-blue-600 hover:text-blue-800"
-                                    data-oid="q2dl_f6"
+                                    data-oid="4vk4xs3"
                                 >
                                     招生计划查询
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="bg-blue-50 shadow rounded-lg p-6" data-oid="5gp:oed">
+                        <div className="bg-blue-50 shadow rounded-lg p-6" data-oid="f7w14te">
                             <h3
                                 className="text-lg font-medium text-blue-800 mb-3"
-                                data-oid="j7uzn7y"
+                                data-oid="ixah.t6"
                             >
                                 志愿填报咨询
                             </h3>
-                            <p className="text-blue-700 mb-4" data-oid="eu.inie">
+                            <p className="text-blue-700 mb-4" data-oid=":mbpk0a">
                                 不确定如何填报志愿？我们的专业咨询师可以为您提供一对一的指导服务。
                             </p>
                             <button
                                 className="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                data-oid="l7149w_"
+                                data-oid="pykxthi"
                             >
                                 预约咨询
                             </button>
@@ -301,10 +301,10 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
             </main>
 
             {/* Footer */}
-            <footer className="bg-white border-t mt-12" data-oid="p2dspli">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid="ognn7by">
-                    <div className="text-center text-gray-500" data-oid="5.x0kq8">
-                        <p data-oid="ii720au">© 2023 河北高考志愿填报服务平台 版权所有</p>
+            <footer className="bg-white border-t mt-12" data-oid="mnx60ln">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid="facc-8a">
+                    <div className="text-center text-gray-500" data-oid="jx1rrmb">
+                        <p data-oid="tc6rxsh">© 2023 河北高考志愿填报服务平台 版权所有</p>
                     </div>
                 </div>
             </footer>

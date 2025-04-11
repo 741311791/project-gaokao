@@ -10,14 +10,14 @@ interface MainLayoutProps {
 
 export default function MainLayout({ children }: MainLayoutProps) {
     return (
-        <div className="flex flex-col min-h-screen" data-oid="y-g6s_1">
-            <Header data-oid="prah-ql" />
-            <main className="flex-grow" data-oid="s.5qszi">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid=".329nww">
+        <div className="flex flex-col min-h-screen w-full max-w-[1920px] mx-auto" data-oid="sak.48l">
+            <Header data-oid="4zdf3ki" />
+            <main className="flex-grow" data-oid="_xe0n56">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid="qg7_hr.">
                     {children}
                 </div>
             </main>
-            <Footer data-oid="3g7b6af" />
+            <Footer data-oid="ty-ti6v" />
         </div>
     );
 }
