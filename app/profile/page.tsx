@@ -48,25 +48,25 @@ export default function ProfilePage() {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50" data-oid="14.wml5">
+        <div className="min-h-screen bg-gray-50" data-oid="lbmol4s">
             {/* Header */}
-            <header className="bg-white shadow-sm" data-oid="sshux3s">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="fluvahb">
-                    <div className="flex justify-between items-center py-4" data-oid="lfjzizt">
-                        <div className="flex items-center" data-oid="r5r6lyx">
+            <header className="bg-white shadow-sm" data-oid="cypdaz-">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="gy:901h">
+                    <div className="flex justify-between items-center py-4" data-oid="ay6im-6">
+                        <div className="flex items-center" data-oid="lu5cdze">
                             <Link
                                 href="/"
                                 className="text-2xl font-bold text-blue-700"
-                                data-oid="kn5e7ix"
+                                data-oid="wqle5ew"
                             >
                                 河北高考志愿填报
                             </Link>
                         </div>
-                        <div data-oid="czcu0u3">
+                        <div data-oid="a3wh2g9">
                             <Link
                                 href="/"
                                 className="text-gray-600 hover:text-blue-600 mr-4"
-                                data-oid="a-snjr4"
+                                data-oid="k-zmo8n"
                             >
                                 返回首页
                             </Link>
@@ -76,49 +76,49 @@ export default function ProfilePage() {
             </header>
 
             {/* Main content */}
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="-dp_ttq">
-                <div className="md:flex md:space-x-8" data-oid="44fvh2p">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="kvi5s:6">
+                <div className="md:flex md:space-x-8" data-oid="_7gsard">
                     {/* Sidebar */}
-                    <div className="md:w-1/4" data-oid="xp166d.">
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="6utb_d0">
-                            <div className="text-center mb-6" data-oid=".1y6u1c">
+                    <div className="md:w-1/4" data-oid="pkep17a">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="_6b1338">
+                            <div className="text-center mb-6" data-oid="zoe2sej">
                                 <div
                                     className="h-24 w-24 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center"
-                                    data-oid="07ar:ob"
+                                    data-oid="dpr7qp9"
                                 >
-                                    <span className="text-3xl text-blue-600" data-oid="f3nvj38">
+                                    <span className="text-3xl text-blue-600" data-oid="_4jmx0f">
                                         {userData.name.charAt(0)}
                                     </span>
                                 </div>
-                                <h2 className="text-xl font-semibold" data-oid="3ismzi7">
+                                <h2 className="text-xl font-semibold" data-oid="f_xcz09">
                                     {userData.name}
                                 </h2>
-                                <p className="text-gray-600" data-oid="tbgzxq:">
+                                <p className="text-gray-600" data-oid="w4xfddy">
                                     {userData.school}
                                 </p>
                             </div>
-                            <div className="space-y-2" data-oid="8-cj6.6">
-                                <div className="flex justify-between" data-oid="2r0-igz">
-                                    <span className="text-gray-600" data-oid="-zjaowy">
+                            <div className="space-y-2" data-oid="jl7clq4">
+                                <div className="flex justify-between" data-oid="1fu9u:x">
+                                    <span className="text-gray-600" data-oid="nebbhvf">
                                         高考分数:
                                     </span>
-                                    <span className="font-medium" data-oid="m6:emf1">
+                                    <span className="font-medium" data-oid="u5bo8yg">
                                         {userData.examScore}
                                     </span>
                                 </div>
-                                <div className="flex justify-between" data-oid="17pg3:s">
-                                    <span className="text-gray-600" data-oid="rfulo1m">
+                                <div className="flex justify-between" data-oid="w0uli6c">
+                                    <span className="text-gray-600" data-oid="xh1tfa6">
                                         位次:
                                     </span>
-                                    <span className="font-medium" data-oid="1yh2smn">
+                                    <span className="font-medium" data-oid="u55p6qe">
                                         {userData.examRank}
                                     </span>
                                 </div>
-                                <div className="flex justify-between" data-oid="btxm9yi">
-                                    <span className="text-gray-600" data-oid="qtvxo.o">
+                                <div className="flex justify-between" data-oid="3jbfey1">
+                                    <span className="text-gray-600" data-oid=".z9:woz">
                                         考试年份:
                                     </span>
-                                    <span className="font-medium" data-oid="_d7419a">
+                                    <span className="font-medium" data-oid="5.qqi-_">
                                         {userData.examYear}
                                     </span>
                                 </div>
@@ -127,33 +127,33 @@ export default function ProfilePage() {
 
                         <div
                             className="bg-white shadow rounded-lg overflow-hidden"
-                            data-oid="v32yxtp"
+                            data-oid="ej9xntj"
                         >
                             <button
                                 className={`w-full py-3 px-4 text-left ${activeTab === 'info' ? 'bg-blue-50 text-blue-600 border-l-4 border-blue-600' : 'text-gray-700 hover:bg-gray-50'}`}
                                 onClick={() => setActiveTab('info')}
-                                data-oid="rrkfiuz"
+                                data-oid="4nsh3ej"
                             >
                                 个人信息
                             </button>
                             <button
                                 className={`w-full py-3 px-4 text-left ${activeTab === 'saved' ? 'bg-blue-50 text-blue-600 border-l-4 border-blue-600' : 'text-gray-700 hover:bg-gray-50'}`}
                                 onClick={() => setActiveTab('saved')}
-                                data-oid="majuj-8"
+                                data-oid="prtal44"
                             >
                                 收藏院校/专业
                             </button>
                             <button
                                 className={`w-full py-3 px-4 text-left ${activeTab === 'applications' ? 'bg-blue-50 text-blue-600 border-l-4 border-blue-600' : 'text-gray-700 hover:bg-gray-50'}`}
                                 onClick={() => setActiveTab('applications')}
-                                data-oid="7p6ejs_"
+                                data-oid="fwl9wlh"
                             >
                                 志愿申请记录
                             </button>
                             <button
                                 className={`w-full py-3 px-4 text-left ${activeTab === 'settings' ? 'bg-blue-50 text-blue-600 border-l-4 border-blue-600' : 'text-gray-700 hover:bg-gray-50'}`}
                                 onClick={() => setActiveTab('settings')}
-                                data-oid="7d:x-0a"
+                                data-oid="yqoh108"
                             >
                                 账户设置
                             </button>
@@ -161,22 +161,22 @@ export default function ProfilePage() {
                     </div>
 
                     {/* Main content area */}
-                    <div className="md:w-3/4 mt-6 md:mt-0" data-oid="d1qthvs">
-                        <div className="bg-white shadow rounded-lg p-6" data-oid="rdcgiif">
+                    <div className="md:w-3/4 mt-6 md:mt-0" data-oid="8drnktm">
+                        <div className="bg-white shadow rounded-lg p-6" data-oid="s8iw08g">
                             {activeTab === 'info' && (
-                                <div data-oid="ufrfu8c">
-                                    <h2 className="text-xl font-semibold mb-6" data-oid="mltju6a">
+                                <div data-oid="0luvmcr">
+                                    <h2 className="text-xl font-semibold mb-6" data-oid="uvrhi8k">
                                         个人信息
                                     </h2>
-                                    <div className="space-y-6" data-oid="cr6n.bp">
+                                    <div className="space-y-6" data-oid="x3:ig0y">
                                         <div
                                             className="grid grid-cols-1 md:grid-cols-2 gap-6"
-                                            data-oid="sz_b7z_"
+                                            data-oid="lrila:l"
                                         >
-                                            <div data-oid="khsrmv2">
+                                            <div data-oid="25s8khz">
                                                 <label
                                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                                    data-oid="hy1x7w8"
+                                                    data-oid="de-5bn8"
                                                 >
                                                     姓名
                                                 </label>
@@ -185,13 +185,13 @@ export default function ProfilePage() {
                                                     value={userData.name}
                                                     readOnly
                                                     className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                    data-oid="d-gq4xm"
+                                                    data-oid="fm7ctt9"
                                                 />
                                             </div>
-                                            <div data-oid="_e79am0">
+                                            <div data-oid="rwzo84p">
                                                 <label
                                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                                    data-oid="85bd:zw"
+                                                    data-oid="c1eel9b"
                                                 >
                                                     学校
                                                 </label>
@@ -200,13 +200,13 @@ export default function ProfilePage() {
                                                     value={userData.school}
                                                     readOnly
                                                     className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                    data-oid="vskwr26"
+                                                    data-oid="vdwrfrp"
                                                 />
                                             </div>
-                                            <div data-oid="vmhkpm7">
+                                            <div data-oid="taaiv4i">
                                                 <label
                                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                                    data-oid="cp25r2p"
+                                                    data-oid="t.knr41"
                                                 >
                                                     邮箱
                                                 </label>
@@ -215,13 +215,13 @@ export default function ProfilePage() {
                                                     value={userData.email}
                                                     readOnly
                                                     className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                    data-oid="qmjffja"
+                                                    data-oid="37lihm-"
                                                 />
                                             </div>
-                                            <div data-oid="ogyjrm3">
+                                            <div data-oid="h_vu69p">
                                                 <label
                                                     className="block text-sm font-medium text-gray-700 mb-1"
-                                                    data-oid="hoa0tf8"
+                                                    data-oid="5.f3v1r"
                                                 >
                                                     手机号码
                                                 </label>
@@ -230,26 +230,26 @@ export default function ProfilePage() {
                                                     value={userData.phone}
                                                     readOnly
                                                     className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                    data-oid="2-kwh8l"
+                                                    data-oid="wsxrr17"
                                                 />
                                             </div>
                                         </div>
 
-                                        <div data-oid="kumpfi6">
+                                        <div data-oid="4-sm6a1">
                                             <h3
                                                 className="text-lg font-medium mb-3"
-                                                data-oid="o6.tgcz"
+                                                data-oid="3o:3:ro"
                                             >
                                                 高考信息
                                             </h3>
                                             <div
                                                 className="grid grid-cols-1 md:grid-cols-3 gap-6"
-                                                data-oid="bq-ei-5"
+                                                data-oid="tap:59_"
                                             >
-                                                <div data-oid="p9j3mz5">
+                                                <div data-oid="1d0864q">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="1b:f-nc"
+                                                        data-oid="y69h2xk"
                                                     >
                                                         高考分数
                                                     </label>
@@ -258,13 +258,13 @@ export default function ProfilePage() {
                                                         value={userData.examScore}
                                                         readOnly
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                        data-oid="0_9v6s6"
+                                                        data-oid="fv16d74"
                                                     />
                                                 </div>
-                                                <div data-oid="ys4hjnb">
+                                                <div data-oid="8emn86s">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="fjyokag"
+                                                        data-oid="pce55s_"
                                                     >
                                                         位次
                                                     </label>
@@ -273,13 +273,13 @@ export default function ProfilePage() {
                                                         value={userData.examRank}
                                                         readOnly
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                        data-oid="l1dxzj6"
+                                                        data-oid="jsfhua-"
                                                     />
                                                 </div>
-                                                <div data-oid="cm.7b_m">
+                                                <div data-oid="hbxa64r">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="8:_6hk_"
+                                                        data-oid="qbi:l_x"
                                                     >
                                                         考试年份
                                                     </label>
@@ -288,16 +288,16 @@ export default function ProfilePage() {
                                                         value={userData.examYear}
                                                         readOnly
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-50"
-                                                        data-oid=":kl3:g5"
+                                                        data-oid=".b-7krm"
                                                     />
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div className="flex justify-end" data-oid="4wj1-0:">
+                                        <div className="flex justify-end" data-oid="pn65rgp">
                                             <button
                                                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                                data-oid="h4ge9v_"
+                                                data-oid="to-_ozc"
                                             >
                                                 编辑信息
                                             </button>
@@ -307,54 +307,54 @@ export default function ProfilePage() {
                             )}
 
                             {activeTab === 'saved' && (
-                                <div data-oid="zvm5ta1">
-                                    <h2 className="text-xl font-semibold mb-6" data-oid="x54a1j_">
+                                <div data-oid="r58iz8w">
+                                    <h2 className="text-xl font-semibold mb-6" data-oid="pjfvm7r">
                                         收藏院校/专业
                                     </h2>
 
-                                    <div className="mb-8" data-oid="sqd7un_">
-                                        <h3 className="text-lg font-medium mb-4" data-oid="88e86dn">
+                                    <div className="mb-8" data-oid="p.b.vxf">
+                                        <h3 className="text-lg font-medium mb-4" data-oid="buge_ys">
                                             收藏的院校
                                         </h3>
-                                        <div className="overflow-x-auto" data-oid="km2iefi">
+                                        <div className="overflow-x-auto" data-oid="b.ng3e3">
                                             <table
                                                 className="min-w-full divide-y divide-gray-200"
-                                                data-oid="7y5w8hv"
+                                                data-oid="-j:358o"
                                             >
-                                                <thead className="bg-gray-50" data-oid="fkuoq9z">
-                                                    <tr data-oid="rgkscgc">
+                                                <thead className="bg-gray-50" data-oid="6_mfnyi">
+                                                    <tr data-oid="5pcp7jf">
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="_6y49ee"
+                                                            data-oid="j0:lzzp"
                                                         >
                                                             院校名称
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="l5z4hpu"
+                                                            data-oid="pd33a9_"
                                                         >
                                                             所在地
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="475vsg."
+                                                            data-oid="qm9:fqa"
                                                         >
                                                             类型
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="tx38pn7"
+                                                            data-oid=":yo2jad"
                                                         >
                                                             录取概率
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="ni1q9is"
+                                                            data-oid="oargy-n"
                                                         >
                                                             操作
                                                         </th>
@@ -362,46 +362,46 @@ export default function ProfilePage() {
                                                 </thead>
                                                 <tbody
                                                     className="bg-white divide-y divide-gray-200"
-                                                    data-oid="ndbhpr2"
+                                                    data-oid=".ns8:eg"
                                                 >
                                                     {savedUniversities.map((uni) => (
-                                                        <tr key={uni.id} data-oid="k14:lw6">
+                                                        <tr key={uni.id} data-oid="vs4mh2.">
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="f0x64lr"
+                                                                data-oid="gz.nnnv"
                                                             >
                                                                 <div
                                                                     className="text-sm font-medium text-blue-600"
-                                                                    data-oid="hmk8jnk"
+                                                                    data-oid="zgecgcr"
                                                                 >
                                                                     {uni.name}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="sctwb2i"
+                                                                data-oid="40r_t5."
                                                             >
                                                                 <div
                                                                     className="text-sm text-gray-900"
-                                                                    data-oid="2eoi4_4"
+                                                                    data-oid="-ar2up1"
                                                                 >
                                                                     {uni.location}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="nisblri"
+                                                                data-oid="tkfx0aj"
                                                             >
                                                                 <div
                                                                     className="text-sm text-gray-900"
-                                                                    data-oid="hhc:rav"
+                                                                    data-oid="08sdf4e"
                                                                 >
                                                                     {uni.type}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="0wkni1u"
+                                                                data-oid="tn8:bj."
                                                             >
                                                                 <span
                                                                     className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full 
@@ -413,24 +413,24 @@ export default function ProfilePage() {
                                                                               ? 'bg-yellow-100 text-yellow-800'
                                                                               : 'bg-red-100 text-red-800'
                                                                     }`}
-                                                                    data-oid="kzhe.fb"
+                                                                    data-oid="n1rpv-8"
                                                                 >
                                                                     {uni.probability}
                                                                 </span>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-                                                                data-oid="892.qrk"
+                                                                data-oid=".nbf7h0"
                                                             >
                                                                 <button
                                                                     className="text-blue-600 hover:text-blue-900 mr-3"
-                                                                    data-oid="_ip.f60"
+                                                                    data-oid="nyiyxf_"
                                                                 >
                                                                     查看详情
                                                                 </button>
                                                                 <button
                                                                     className="text-red-600 hover:text-red-900"
-                                                                    data-oid="8jtcqok"
+                                                                    data-oid="-bktk.b"
                                                                 >
                                                                     取消收藏
                                                                 </button>
@@ -442,42 +442,42 @@ export default function ProfilePage() {
                                         </div>
                                     </div>
 
-                                    <div data-oid="ggqkk1f">
-                                        <h3 className="text-lg font-medium mb-4" data-oid="gg1j_6c">
+                                    <div data-oid="a7hkzjw">
+                                        <h3 className="text-lg font-medium mb-4" data-oid="6g__954">
                                             收藏的专业
                                         </h3>
-                                        <div className="overflow-x-auto" data-oid=".507jdr">
+                                        <div className="overflow-x-auto" data-oid="yexgnu0">
                                             <table
                                                 className="min-w-full divide-y divide-gray-200"
-                                                data-oid="oudrute"
+                                                data-oid="fo1fl3h"
                                             >
-                                                <thead className="bg-gray-50" data-oid="latqv.u">
-                                                    <tr data-oid="..l5god">
+                                                <thead className="bg-gray-50" data-oid=":ly7r-w">
+                                                    <tr data-oid="3zj_z0y">
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="-s:3b5h"
+                                                            data-oid="_9ysk0i"
                                                         >
                                                             专业名称
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid=":7d_.1h"
+                                                            data-oid="mw2avlp"
                                                         >
                                                             学科门类
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="7ixly9u"
+                                                            data-oid="urjy_rm"
                                                         >
                                                             开设院校
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="admttxk"
+                                                            data-oid="xc796xf"
                                                         >
                                                             操作
                                                         </th>
@@ -485,56 +485,56 @@ export default function ProfilePage() {
                                                 </thead>
                                                 <tbody
                                                     className="bg-white divide-y divide-gray-200"
-                                                    data-oid="tj:kn:s"
+                                                    data-oid="23n:-zi"
                                                 >
                                                     {savedMajors.map((major) => (
-                                                        <tr key={major.id} data-oid=".qffghi">
+                                                        <tr key={major.id} data-oid="ubl9dc0">
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="0hf0ctc"
+                                                                data-oid="4ys7lab"
                                                             >
                                                                 <div
                                                                     className="text-sm font-medium text-green-600"
-                                                                    data-oid="as94lok"
+                                                                    data-oid="-g3n-ou"
                                                                 >
                                                                     {major.name}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="l5a8cae"
+                                                                data-oid="l:p2m8l"
                                                             >
                                                                 <div
                                                                     className="text-sm text-gray-900"
-                                                                    data-oid="cz:9ine"
+                                                                    data-oid="gdn7rpa"
                                                                 >
                                                                     {major.category}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap"
-                                                                data-oid="9ffydou"
+                                                                data-oid="cakhhn8"
                                                             >
                                                                 <div
                                                                     className="text-sm text-gray-900"
-                                                                    data-oid="-67ee-8"
+                                                                    data-oid="0xqjp43"
                                                                 >
                                                                     {major.universities.join(', ')}
                                                                 </div>
                                                             </td>
                                                             <td
                                                                 className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-                                                                data-oid="-8ogw.3"
+                                                                data-oid="bd15pzn"
                                                             >
                                                                 <button
                                                                     className="text-blue-600 hover:text-blue-900 mr-3"
-                                                                    data-oid="gvveeex"
+                                                                    data-oid="333il:."
                                                                 >
                                                                     查看详情
                                                                 </button>
                                                                 <button
                                                                     className="text-red-600 hover:text-red-900"
-                                                                    data-oid="j0xoqol"
+                                                                    data-oid="wkkn8o6"
                                                                 >
                                                                     取消收藏
                                                                 </button>
@@ -549,49 +549,49 @@ export default function ProfilePage() {
                             )}
 
                             {activeTab === 'applications' && (
-                                <div data-oid="5aks3d9">
-                                    <h2 className="text-xl font-semibold mb-6" data-oid="oqtx-hn">
+                                <div data-oid="d_qad54">
+                                    <h2 className="text-xl font-semibold mb-6" data-oid="659sutl">
                                         志愿申请记录
                                     </h2>
-                                    <div className="overflow-x-auto" data-oid="kdo1vye">
+                                    <div className="overflow-x-auto" data-oid="bzi..48">
                                         <table
                                             className="min-w-full divide-y divide-gray-200"
-                                            data-oid="h19q6rk"
+                                            data-oid="y:3ceqb"
                                         >
-                                            <thead className="bg-gray-50" data-oid="-e_71l9">
-                                                <tr data-oid="funvhak">
+                                            <thead className="bg-gray-50" data-oid=".2t5x1f">
+                                                <tr data-oid="3joy42n">
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="4uwc4i1"
+                                                        data-oid="8ah1kyf"
                                                     >
                                                         院校名称
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="_ch-1yq"
+                                                        data-oid=":8s68_s"
                                                     >
                                                         专业名称
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="6uvj.21"
+                                                        data-oid="wg_67g1"
                                                     >
                                                         申请日期
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="bs-vjxd"
+                                                        data-oid="6:ahneg"
                                                     >
                                                         状态
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="qeq2.jk"
+                                                        data-oid="cu6xxkt"
                                                     >
                                                         操作
                                                     </th>
@@ -599,46 +599,46 @@ export default function ProfilePage() {
                                             </thead>
                                             <tbody
                                                 className="bg-white divide-y divide-gray-200"
-                                                data-oid="bmia5xy"
+                                                data-oid="3wvv5u7"
                                             >
                                                 {applicationHistory.map((app) => (
-                                                    <tr key={app.id} data-oid="kfy0z40">
+                                                    <tr key={app.id} data-oid="k2xgi_8">
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="52bwn5e"
+                                                            data-oid="nu7-.-n"
                                                         >
                                                             <div
                                                                 className="text-sm font-medium text-blue-600"
-                                                                data-oid="s4.:.d4"
+                                                                data-oid="dwr7-qn"
                                                             >
                                                                 {app.university}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="lbc_ehv"
+                                                            data-oid="r7tem9-"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="n9ki01_"
+                                                                data-oid="zk0g77q"
                                                             >
                                                                 {app.major}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="ckgly7l"
+                                                            data-oid=".h:.1kd"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="ql02rmv"
+                                                                data-oid="m1qnh1h"
                                                             >
                                                                 {app.date}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="zjpcmp4"
+                                                            data-oid="rdwqeyl"
                                                         >
                                                             <span
                                                                 className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full 
@@ -649,18 +649,18 @@ export default function ProfilePage() {
                                                                           ? 'bg-yellow-100 text-yellow-800'
                                                                           : 'bg-red-100 text-red-800'
                                                                 }`}
-                                                                data-oid="sdxlqys"
+                                                                data-oid="ji5836p"
                                                             >
                                                                 {app.status}
                                                             </span>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-                                                            data-oid="4141c15"
+                                                            data-oid="dc6v7_y"
                                                         >
                                                             <button
                                                                 className="text-blue-600 hover:text-blue-900"
-                                                                data-oid="-bek0cz"
+                                                                data-oid="_af9jl."
                                                             >
                                                                 查看详情
                                                             </button>
@@ -674,62 +674,62 @@ export default function ProfilePage() {
                             )}
 
                             {activeTab === 'settings' && (
-                                <div data-oid="nyh90xp">
-                                    <h2 className="text-xl font-semibold mb-6" data-oid="xvx-7__">
+                                <div data-oid="zpkanuh">
+                                    <h2 className="text-xl font-semibold mb-6" data-oid="98zl925">
                                         账户设置
                                     </h2>
-                                    <div className="space-y-6" data-oid="ujwjpb9">
-                                        <div data-oid="v4ow:uo">
+                                    <div className="space-y-6" data-oid="lfr9s-a">
+                                        <div data-oid="07f8fu.">
                                             <h3
                                                 className="text-lg font-medium mb-3"
-                                                data-oid="gj2c9b1"
+                                                data-oid="qkk3rbv"
                                             >
                                                 修改密码
                                             </h3>
-                                            <div className="space-y-4" data-oid=".de:972">
-                                                <div data-oid="otux2jk">
+                                            <div className="space-y-4" data-oid="drkfcfs">
+                                                <div data-oid="z5yf29x">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="k491:c5"
+                                                        data-oid="modsxtx"
                                                     >
                                                         当前密码
                                                     </label>
                                                     <input
                                                         type="password"
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm"
-                                                        data-oid="5w7fw3g"
+                                                        data-oid=":oa2i-5"
                                                     />
                                                 </div>
-                                                <div data-oid="18_wz9t">
+                                                <div data-oid="3kk34e_">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="vws7i.b"
+                                                        data-oid="3dsckc7"
                                                     >
                                                         新密码
                                                     </label>
                                                     <input
                                                         type="password"
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm"
-                                                        data-oid="qkczdca"
+                                                        data-oid="kgmn7xg"
                                                     />
                                                 </div>
-                                                <div data-oid="-640mw:">
+                                                <div data-oid="l4jy:j.">
                                                     <label
                                                         className="block text-sm font-medium text-gray-700 mb-1"
-                                                        data-oid="2lt0dbh"
+                                                        data-oid="44vtf5q"
                                                     >
                                                         确认新密码
                                                     </label>
                                                     <input
                                                         type="password"
                                                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm"
-                                                        data-oid="x96z3-j"
+                                                        data-oid="mr:tcgl"
                                                     />
                                                 </div>
-                                                <div data-oid="-8vq4-t">
+                                                <div data-oid="qj8_2.k">
                                                     <button
                                                         className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                                        data-oid="1y6dl4s"
+                                                        data-oid="wzlqiew"
                                                     >
                                                         更新密码
                                                     </button>
@@ -739,17 +739,17 @@ export default function ProfilePage() {
 
                                         <div
                                             className="pt-6 border-t border-gray-200"
-                                            data-oid="qyn9e0u"
+                                            data-oid="3yh.9d-"
                                         >
                                             <h3
                                                 className="text-lg font-medium mb-3 text-red-600"
-                                                data-oid="jsz6w01"
+                                                data-oid="hr74nsc"
                                             >
                                                 危险操作
                                             </h3>
                                             <button
                                                 className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition"
-                                                data-oid="0s7ikh8"
+                                                data-oid="auw7_8o"
                                             >
                                                 注销账户
                                             </button>
@@ -763,10 +763,10 @@ export default function ProfilePage() {
             </main>
 
             {/* Footer */}
-            <footer className="bg-white border-t mt-12" data-oid="um7dfol">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid="woj_w-v">
-                    <div className="text-center text-gray-500" data-oid="x6my96e">
-                        <p data-oid="-074fsy">© 2023 河北高考志愿填报服务平台 版权所有</p>
+            <footer className="bg-white border-t mt-12" data-oid="jtdjq5v">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid="k6bgtgl">
+                    <div className="text-center text-gray-500" data-oid="d7ayys3">
+                        <p data-oid="pexsw-x">© 2023 河北高考志愿填报服务平台 版权所有</p>
                     </div>
                 </div>
             </footer>

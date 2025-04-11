@@ -62,62 +62,62 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
     const university = universityData; // Using mock data for now
 
     return (
-        <div className="min-h-screen bg-gray-50" data-oid="p9jw:bh">
+        <div className="min-h-screen bg-gray-50" data-oid="4j0f4tu">
             {/* Header */}
-            <header className="bg-white shadow-sm" data-oid="cirn4gp">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="e2i7e2:">
-                    <div className="flex justify-between items-center py-4" data-oid="5jio11z">
-                        <div className="flex items-center" data-oid="n03eei8">
+            <header className="bg-white shadow-sm" data-oid="p-pjil6">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="408fup:">
+                    <div className="flex justify-between items-center py-4" data-oid="n4o6r_a">
+                        <div className="flex items-center" data-oid="x_zckmu">
                             <Link
                                 href="/"
                                 className="text-2xl font-bold text-blue-700"
-                                data-oid="0ha-r97"
+                                data-oid="q-je_1k"
                             >
                                 河北高考志愿填报
                             </Link>
                         </div>
-                        <nav className="hidden md:flex space-x-8" data-oid="dya.e0s">
+                        <nav className="hidden md:flex space-x-8" data-oid="66jr.tu">
                             <Link
                                 href="/"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="82r6_.5"
+                                data-oid="n4mwxvx"
                             >
                                 首页
                             </Link>
                             <Link
                                 href="/#universities"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="5vx:una"
+                                data-oid="bpd6:v."
                             >
                                 高校信息查询
                             </Link>
                             <Link
                                 href="/#scoreLines"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="43mllo_"
+                                data-oid=".c2wbr2"
                             >
                                 历年分数线
                             </Link>
                             <Link
                                 href="/#scoreRankings"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="g1a.wvz"
+                                data-oid="0931-n1"
                             >
                                 一分一档查询
                             </Link>
                             <Link
                                 href="/#admissionPlans"
                                 className="text-gray-600 hover:text-blue-600"
-                                data-oid="1dgl-69"
+                                data-oid="1lystj4"
                             >
                                 招生计划查询
                             </Link>
                         </nav>
-                        <div data-oid=".99a-n4">
+                        <div data-oid="3x3zj.6">
                             <Link
                                 href="/login"
                                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                data-oid="f4w0v57"
+                                data-oid="c-c9jvt"
                             >
                                 登录/注册
                             </Link>
@@ -127,44 +127,44 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
             </header>
 
             {/* University Header */}
-            <div className="bg-blue-700 text-white" data-oid="o.o7q7e">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-oid="am6hdmx">
+            <div className="bg-blue-700 text-white" data-oid="azt28t.">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-oid="yiy:kye">
                     <div
                         className="flex flex-col md:flex-row items-center md:items-start"
-                        data-oid=".z.j.kk"
+                        data-oid="-xktl0:"
                     >
                         <div
                             className="w-24 h-24 bg-white rounded-lg flex items-center justify-center mb-4 md:mb-0 md:mr-6"
-                            data-oid="5et_ega"
+                            data-oid="qvrhdkt"
                         >
                             {/* In a real app, this would be an actual image */}
-                            <span className="text-blue-700 text-2xl font-bold" data-oid="b48e9ww">
+                            <span className="text-blue-700 text-2xl font-bold" data-oid="gm9:g2x">
                                 {university.name.substring(0, 2)}
                             </span>
                         </div>
-                        <div data-oid=":rcok-d">
-                            <h1 className="text-3xl font-bold" data-oid="ii.rxzz">
+                        <div data-oid="-umm1jr">
+                            <h1 className="text-3xl font-bold" data-oid="x8w26gb">
                                 {university.name}
                             </h1>
-                            <p className="text-blue-100 mt-1" data-oid="sbdu2.r">
+                            <p className="text-blue-100 mt-1" data-oid="uj7qsy5">
                                 {university.englishName}
                             </p>
-                            <div className="flex flex-wrap gap-2 mt-4" data-oid="_2qjkmn">
+                            <div className="flex flex-wrap gap-2 mt-4" data-oid=".d1u1bw">
                                 <span
                                     className="bg-blue-800 text-blue-100 px-3 py-1 rounded-full text-sm"
-                                    data-oid="6saoz0l"
+                                    data-oid="hi:whzk"
                                 >
                                     {university.type}
                                 </span>
                                 <span
                                     className="bg-blue-800 text-blue-100 px-3 py-1 rounded-full text-sm"
-                                    data-oid="x6.l08c"
+                                    data-oid="sids5w-"
                                 >
                                     {university.affiliation}
                                 </span>
                                 <span
                                     className="bg-blue-800 text-blue-100 px-3 py-1 rounded-full text-sm"
-                                    data-oid="gq4zevc"
+                                    data-oid="u6bg6y0"
                                 >
                                     创建于{university.founded}
                                 </span>
@@ -175,41 +175,41 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
             </div>
 
             {/* Navigation Tabs */}
-            <div className="bg-white shadow" data-oid=".6rfuzp">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="ec6k5z4">
-                    <div className="flex overflow-x-auto" data-oid="7goz0zz">
+            <div className="bg-white shadow" data-oid="y0uexz3">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="e:fcapb">
+                    <div className="flex overflow-x-auto" data-oid="kaesg:z">
                         <button
                             className={`px-4 py-4 font-medium text-sm whitespace-nowrap ${activeTab === 'overview' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
                             onClick={() => setActiveTab('overview')}
-                            data-oid="0065h4u"
+                            data-oid="wgjlhif"
                         >
                             学校概况
                         </button>
                         <button
                             className={`px-4 py-4 font-medium text-sm whitespace-nowrap ${activeTab === 'majors' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
                             onClick={() => setActiveTab('majors')}
-                            data-oid="imyiet-"
+                            data-oid="saymx:6"
                         >
                             专业设置
                         </button>
                         <button
                             className={`px-4 py-4 font-medium text-sm whitespace-nowrap ${activeTab === 'admission' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
                             onClick={() => setActiveTab('admission')}
-                            data-oid="8n_t8wg"
+                            data-oid="oyeuch_"
                         >
                             招生信息
                         </button>
                         <button
                             className={`px-4 py-4 font-medium text-sm whitespace-nowrap ${activeTab === 'scoreLines' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
                             onClick={() => setActiveTab('scoreLines')}
-                            data-oid="y_-6q8:"
+                            data-oid="5jm2m8o"
                         >
                             历年分数线
                         </button>
                         <button
                             className={`px-4 py-4 font-medium text-sm whitespace-nowrap ${activeTab === 'facilities' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
                             onClick={() => setActiveTab('facilities')}
-                            data-oid="9hn39r-"
+                            data-oid="livj16j"
                         >
                             校园设施
                         </button>
@@ -218,64 +218,64 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
             </div>
 
             {/* Main content */}
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="fb41i9z">
-                <div className="md:flex md:space-x-8" data-oid="y6oo-7w">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="x4uldej">
+                <div className="md:flex md:space-x-8" data-oid="rbgvbe9">
                     {/* Main content area */}
-                    <div className="md:w-2/3" data-oid="nnh7dx:">
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="ed-73z7">
+                    <div className="md:w-2/3" data-oid=".2h0jkz">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="-bvo.2i">
                             {activeTab === 'overview' && (
-                                <div data-oid="jcta1dn">
-                                    <h2 className="text-xl font-semibold mb-4" data-oid="6gzh4vs">
+                                <div data-oid="ppakyzd">
+                                    <h2 className="text-xl font-semibold mb-4" data-oid="fez385.">
                                         学校简介
                                     </h2>
                                     <p
                                         className="text-gray-700 mb-6 leading-relaxed"
-                                        data-oid="2xxx84x"
+                                        data-oid="f:v_4qb"
                                     >
                                         {university.description}
                                     </p>
 
-                                    <h3 className="text-lg font-medium mb-3" data-oid="7wm5.ke">
+                                    <h3 className="text-lg font-medium mb-3" data-oid="5pjbek:">
                                         基本信息
                                     </h3>
                                     <div
                                         className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6"
-                                        data-oid="i7ceu5e"
+                                        data-oid="71p9qu_"
                                     >
-                                        <div className="flex" data-oid="v0xkj5h">
-                                            <span className="text-gray-500 w-24" data-oid="9djweb5">
+                                        <div className="flex" data-oid="b684c4q">
+                                            <span className="text-gray-500 w-24" data-oid="orpkw5_">
                                                 学校类型：
                                             </span>
-                                            <span className="text-gray-900" data-oid="zw-nppc">
+                                            <span className="text-gray-900" data-oid="r696e_q">
                                                 {university.type}
                                             </span>
                                         </div>
-                                        <div className="flex" data-oid="qfyzazm">
-                                            <span className="text-gray-500 w-24" data-oid="cn8zsmq">
+                                        <div className="flex" data-oid=".58nxbz">
+                                            <span className="text-gray-500 w-24" data-oid="ffw8khi">
                                                 创办时间：
                                             </span>
-                                            <span className="text-gray-900" data-oid="yu6yt5e">
+                                            <span className="text-gray-900" data-oid="jlt6.p2">
                                                 {university.founded}
                                             </span>
                                         </div>
-                                        <div className="flex" data-oid="0::iinc">
-                                            <span className="text-gray-500 w-24" data-oid="i7bwpek">
+                                        <div className="flex" data-oid="rvbhont">
+                                            <span className="text-gray-500 w-24" data-oid="2ttin.m">
                                                 隶属关系：
                                             </span>
-                                            <span className="text-gray-900" data-oid="it5xwfl">
+                                            <span className="text-gray-900" data-oid="ao.814a">
                                                 {university.affiliation}
                                             </span>
                                         </div>
-                                        <div className="flex" data-oid="ieml.gl">
-                                            <span className="text-gray-500 w-24" data-oid="pu64_tr">
+                                        <div className="flex" data-oid="wxvsa05">
+                                            <span className="text-gray-500 w-24" data-oid="bff3l1c">
                                                 学校地址：
                                             </span>
-                                            <span className="text-gray-900" data-oid="8ui_gfv">
+                                            <span className="text-gray-900" data-oid="v:g_pmq">
                                                 {university.location}
                                             </span>
                                         </div>
-                                        <div className="flex" data-oid="85mdy0k">
-                                            <span className="text-gray-500 w-24" data-oid="pje:bvh">
+                                        <div className="flex" data-oid="ucvbwx5">
+                                            <span className="text-gray-500 w-24" data-oid="u5oit3x">
                                                 学校网址：
                                             </span>
                                             <a
@@ -283,22 +283,22 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="text-blue-600 hover:underline"
-                                                data-oid="btya_zg"
+                                                data-oid="ko26u.9"
                                             >
                                                 {university.website}
                                             </a>
                                         </div>
                                     </div>
 
-                                    <h3 className="text-lg font-medium mb-3" data-oid="z9vh9jb">
+                                    <h3 className="text-lg font-medium mb-3" data-oid="3q-sgwz">
                                         知名校友
                                     </h3>
                                     <ul
                                         className="list-disc pl-5 mb-6 space-y-1 text-gray-700"
-                                        data-oid="9w5bdrb"
+                                        data-oid="3ww50f."
                                     >
                                         {university.famous.map((person, index) => (
-                                            <li key={index} data-oid="irc8.m6">
+                                            <li key={index} data-oid="qf-g5w9">
                                                 {person}
                                             </li>
                                         ))}
@@ -307,47 +307,47 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                             )}
 
                             {activeTab === 'majors' && (
-                                <div data-oid="pyrq38z">
-                                    <h2 className="text-xl font-semibold mb-4" data-oid="zfe3b_7">
+                                <div data-oid="_g67cn_">
+                                    <h2 className="text-xl font-semibold mb-4" data-oid="qo9wmfw">
                                         专业设置
                                     </h2>
-                                    <p className="text-gray-700 mb-6" data-oid="e_r3ppo">
+                                    <p className="text-gray-700 mb-6" data-oid="clkk.rp">
                                         {university.name}
                                         拥有多个国家级重点学科，以下是部分优势专业：
                                     </p>
 
-                                    <div className="overflow-x-auto" data-oid="5vjz7n7">
+                                    <div className="overflow-x-auto" data-oid="paqe9bg">
                                         <table
                                             className="min-w-full divide-y divide-gray-200"
-                                            data-oid="hen0aa8"
+                                            data-oid="9elfe7-"
                                         >
-                                            <thead className="bg-gray-50" data-oid="hdc10j4">
-                                                <tr data-oid="3edf80:">
+                                            <thead className="bg-gray-50" data-oid="48697uq">
+                                                <tr data-oid="94kmuqy">
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="4_jv-uk"
+                                                        data-oid="sh5415j"
                                                     >
                                                         专业名称
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="w82eky1"
+                                                        data-oid="32j8rdw"
                                                     >
                                                         学科门类
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="mjr_1sm"
+                                                        data-oid="t6l3jdr"
                                                     >
                                                         全国排名
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="bhhhwmu"
+                                                        data-oid="im5ik3o"
                                                     >
                                                         操作
                                                     </th>
@@ -355,51 +355,51 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                                             </thead>
                                             <tbody
                                                 className="bg-white divide-y divide-gray-200"
-                                                data-oid="::mhqi8"
+                                                data-oid="8r59x1f"
                                             >
                                                 {university.majors.map((major) => (
-                                                    <tr key={major.id} data-oid="65s-:0l">
+                                                    <tr key={major.id} data-oid="14uy2ch">
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="m_168u5"
+                                                            data-oid="7ejflgm"
                                                         >
                                                             <div
                                                                 className="text-sm font-medium text-blue-600"
-                                                                data-oid="grczfjj"
+                                                                data-oid="uud59t4"
                                                             >
                                                                 {major.name}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="otmcw6j"
+                                                            data-oid="5gi::fr"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="jt:ryay"
+                                                                data-oid="igzpkny"
                                                             >
                                                                 {major.category}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="8_mrv1p"
+                                                            data-oid="u_6y9-l"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="h7wpz0w"
+                                                                data-oid="c.6ve-1"
                                                             >
                                                                 {major.ranking}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-                                                            data-oid="gbnqx9s"
+                                                            data-oid="f7a8gm2"
                                                         >
                                                             <Link
                                                                 href={`/major/${major.id}`}
                                                                 className="text-blue-600 hover:text-blue-900"
-                                                                data-oid="yf3:9tx"
+                                                                data-oid="eivcbd_"
                                                             >
                                                                 查看详情
                                                             </Link>
@@ -413,51 +413,51 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                             )}
 
                             {activeTab === 'admission' && (
-                                <div data-oid="lylp2v8">
-                                    <h2 className="text-xl font-semibold mb-4" data-oid="pur8-6.">
+                                <div data-oid="b.ii0rw">
+                                    <h2 className="text-xl font-semibold mb-4" data-oid="8us727x">
                                         招生信息
                                     </h2>
-                                    <div className="mb-6" data-oid="4pja5w:">
-                                        <h3 className="text-lg font-medium mb-3" data-oid="h6s68_t">
+                                    <div className="mb-6" data-oid="z70ls5:">
+                                        <h3 className="text-lg font-medium mb-3" data-oid="4erz9gn">
                                             招生政策
                                         </h3>
                                         <p
                                             className="text-gray-700 mb-4 leading-relaxed"
-                                            data-oid="iah-q9k"
+                                            data-oid="mhij3mo"
                                         >
                                             {university.admissionInfo}
                                         </p>
                                     </div>
 
-                                    <div className="mb-6" data-oid="ptufujz">
-                                        <h3 className="text-lg font-medium mb-3" data-oid="8-1i13n">
+                                    <div className="mb-6" data-oid="l56_2is">
+                                        <h3 className="text-lg font-medium mb-3" data-oid="r4pm3tf">
                                             河北省招生计划
                                         </h3>
-                                        <div className="overflow-x-auto" data-oid="b2qacba">
+                                        <div className="overflow-x-auto" data-oid="6ech8ws">
                                             <table
                                                 className="min-w-full divide-y divide-gray-200"
-                                                data-oid="3xvvgpe"
+                                                data-oid="1wge-d2"
                                             >
-                                                <thead className="bg-gray-50" data-oid="usbd1v6">
-                                                    <tr data-oid=":ynskx9">
+                                                <thead className="bg-gray-50" data-oid="99i9o.w">
+                                                    <tr data-oid="ajxx.1h">
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="nrbrsq_"
+                                                            data-oid="f-04wk9"
                                                         >
                                                             年份
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="4sha4s7"
+                                                            data-oid="b7lg8uh"
                                                         >
                                                             计划招生人数
                                                         </th>
                                                         <th
                                                             scope="col"
                                                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                            data-oid="g0k13wi"
+                                                            data-oid="h:1mq1o"
                                                         >
                                                             实际招生人数
                                                         </th>
@@ -465,40 +465,40 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                                                 </thead>
                                                 <tbody
                                                     className="bg-white divide-y divide-gray-200"
-                                                    data-oid="um_.fd3"
+                                                    data-oid="8.-ofgn"
                                                 >
                                                     {university.admissionPlans.map(
                                                         (plan, index) => (
-                                                            <tr key={index} data-oid="asmvw-6">
+                                                            <tr key={index} data-oid="8xvrff4">
                                                                 <td
                                                                     className="px-6 py-4 whitespace-nowrap"
-                                                                    data-oid="ivvxrrv"
+                                                                    data-oid="j5_qoe3"
                                                                 >
                                                                     <div
                                                                         className="text-sm text-gray-900"
-                                                                        data-oid="_n0p_-z"
+                                                                        data-oid="k9yyb0s"
                                                                     >
                                                                         {plan.year}
                                                                     </div>
                                                                 </td>
                                                                 <td
                                                                     className="px-6 py-4 whitespace-nowrap"
-                                                                    data-oid="pxa1to2"
+                                                                    data-oid="lxc29ps"
                                                                 >
                                                                     <div
                                                                         className="text-sm text-gray-900"
-                                                                        data-oid="mvi5.6x"
+                                                                        data-oid="c1u2b1q"
                                                                     >
                                                                         {plan.plan}
                                                                     </div>
                                                                 </td>
                                                                 <td
                                                                     className="px-6 py-4 whitespace-nowrap"
-                                                                    data-oid="jehb36l"
+                                                                    data-oid="vtezs3b"
                                                                 >
                                                                     <div
                                                                         className="text-sm text-gray-900"
-                                                                        data-oid="lg12:yr"
+                                                                        data-oid="rstspdn"
                                                                     >
                                                                         {plan.actual}
                                                                     </div>
@@ -514,46 +514,46 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                             )}
 
                             {activeTab === 'scoreLines' && (
-                                <div data-oid="a_3cb7w">
-                                    <h2 className="text-xl font-semibold mb-4" data-oid="e5mrwrd">
+                                <div data-oid="gjm1uw8">
+                                    <h2 className="text-xl font-semibold mb-4" data-oid="4onz9vt">
                                         历年分数线
                                     </h2>
-                                    <p className="text-gray-700 mb-6" data-oid="mlsmnb2">
+                                    <p className="text-gray-700 mb-6" data-oid="9fxsf2q">
                                         以下是{university.name}在河北省的历年录取分数线和位次：
                                     </p>
 
-                                    <div className="overflow-x-auto" data-oid="y17gs3j">
+                                    <div className="overflow-x-auto" data-oid="20857gw">
                                         <table
                                             className="min-w-full divide-y divide-gray-200"
-                                            data-oid="xs1e5dg"
+                                            data-oid="r4-pgdf"
                                         >
-                                            <thead className="bg-gray-50" data-oid=":o9n1s3">
-                                                <tr data-oid="cw5kjiu">
+                                            <thead className="bg-gray-50" data-oid="q87a4.r">
+                                                <tr data-oid="yi.kn:k">
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid=".ll9cn7"
+                                                        data-oid="jvw40-h"
                                                     >
                                                         年份
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid=":-fa1hs"
+                                                        data-oid="1zztok3"
                                                     >
                                                         批次
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="wsnzf:j"
+                                                        data-oid="feriowc"
                                                     >
                                                         最低分数
                                                     </th>
                                                     <th
                                                         scope="col"
                                                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                                                        data-oid="tqvw66-"
+                                                        data-oid="g4t3qdu"
                                                     >
                                                         最低位次
                                                     </th>
@@ -561,50 +561,50 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                                             </thead>
                                             <tbody
                                                 className="bg-white divide-y divide-gray-200"
-                                                data-oid="oyat4kv"
+                                                data-oid="so6nx5a"
                                             >
                                                 {university.scoreLines.map((line, index) => (
-                                                    <tr key={index} data-oid="crgeaec">
+                                                    <tr key={index} data-oid="i90gi08">
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="0hh8sve"
+                                                            data-oid="zhy7lfr"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="j16847l"
+                                                                data-oid="apmwn:."
                                                             >
                                                                 {line.year}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="csy5j:z"
+                                                            data-oid="8y9..7b"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="uv3kioe"
+                                                                data-oid="jg36f-n"
                                                             >
                                                                 {line.batch}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="8p:bjf4"
+                                                            data-oid=":hvhca6"
                                                         >
                                                             <div
                                                                 className="text-sm font-medium text-blue-600"
-                                                                data-oid="igs0i.4"
+                                                                data-oid="zsx:xj-"
                                                             >
                                                                 {line.score}
                                                             </div>
                                                         </td>
                                                         <td
                                                             className="px-6 py-4 whitespace-nowrap"
-                                                            data-oid="ke64:ts"
+                                                            data-oid="z1t..x3"
                                                         >
                                                             <div
                                                                 className="text-sm text-gray-900"
-                                                                data-oid="ku6id6d"
+                                                                data-oid="8n_6hi2"
                                                             >
                                                                 {line.rank}
                                                             </div>
@@ -618,62 +618,62 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                             )}
 
                             {activeTab === 'facilities' && (
-                                <div data-oid="3n2rqb7">
-                                    <h2 className="text-xl font-semibold mb-4" data-oid="2fqn0c6">
+                                <div data-oid="dbqu.:m">
+                                    <h2 className="text-xl font-semibold mb-4" data-oid="i1fw8tw">
                                         校园设施
                                     </h2>
-                                    <p className="text-gray-700 mb-6" data-oid="y3wxxt4">
+                                    <p className="text-gray-700 mb-6" data-oid="dszrpi9">
                                         {university.name}
                                         拥有先进的教学设施和优美的校园环境，为学生提供良好的学习和生活条件。
                                     </p>
 
                                     <div
                                         className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6"
-                                        data-oid="om.20vk"
+                                        data-oid="8yb:q1b"
                                     >
                                         <div
                                             className="bg-gray-100 p-4 rounded-lg h-48 flex items-center justify-center"
-                                            data-oid="mud_-h:"
+                                            data-oid="krt73gi"
                                         >
-                                            <span className="text-gray-500" data-oid=":3t::ho">
+                                            <span className="text-gray-500" data-oid="v11zrfm">
                                                 校园图片 1
                                             </span>
                                         </div>
                                         <div
                                             className="bg-gray-100 p-4 rounded-lg h-48 flex items-center justify-center"
-                                            data-oid="66i7n8q"
+                                            data-oid="g0gd-2i"
                                         >
-                                            <span className="text-gray-500" data-oid="dnc1y2b">
+                                            <span className="text-gray-500" data-oid="9nnj:.s">
                                                 校园图片 2
                                             </span>
                                         </div>
                                         <div
                                             className="bg-gray-100 p-4 rounded-lg h-48 flex items-center justify-center"
-                                            data-oid="u.0uown"
+                                            data-oid="ehsac6b"
                                         >
-                                            <span className="text-gray-500" data-oid="719wl.j">
+                                            <span className="text-gray-500" data-oid=".kgzdah">
                                                 校园图片 3
                                             </span>
                                         </div>
                                         <div
                                             className="bg-gray-100 p-4 rounded-lg h-48 flex items-center justify-center"
-                                            data-oid="9q3-168"
+                                            data-oid="hu0pl1k"
                                         >
-                                            <span className="text-gray-500" data-oid="eb28wr3">
+                                            <span className="text-gray-500" data-oid="yeve5.e">
                                                 校园图片 4
                                             </span>
                                         </div>
                                     </div>
 
-                                    <h3 className="text-lg font-medium mb-3" data-oid="dwb0jz3">
+                                    <h3 className="text-lg font-medium mb-3" data-oid="5_j11z9">
                                         主要设施
                                     </h3>
                                     <ul
                                         className="list-disc pl-5 mb-6 space-y-1 text-gray-700"
-                                        data-oid=".74pw24"
+                                        data-oid="at:n_6u"
                                     >
                                         {university.facilities.map((facility, index) => (
-                                            <li key={index} data-oid="ikt.ftr">
+                                            <li key={index} data-oid="96o:ibg">
                                                 {facility}
                                             </li>
                                         ))}
@@ -684,94 +684,94 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
                     </div>
 
                     {/* Sidebar */}
-                    <div className="md:w-1/3 mt-6 md:mt-0" data-oid="3l.87oz">
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="xi2p6-w">
-                            <h3 className="text-lg font-medium mb-4" data-oid="s3qql-m">
+                    <div className="md:w-1/3 mt-6 md:mt-0" data-oid="7sy.mcw">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="9xg046.">
+                            <h3 className="text-lg font-medium mb-4" data-oid="c0h4yc1">
                                 快速操作
                             </h3>
-                            <div className="space-y-3" data-oid="snt48v0">
+                            <div className="space-y-3" data-oid="cjfnw75">
                                 <button
                                     className="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                                    data-oid="mlq.ps9"
+                                    data-oid="nq7c-kt"
                                 >
                                     收藏该院校
                                 </button>
                                 <button
                                     className="w-full border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-50 transition"
-                                    data-oid="h.kxjyt"
+                                    data-oid="at3ljeo"
                                 >
                                     对比其他院校
                                 </button>
                                 <button
                                     className="w-full border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-50 transition"
-                                    data-oid="v5z2de3"
+                                    data-oid="wfbnmlu"
                                 >
                                     查看录取概率
                                 </button>
                             </div>
                         </div>
 
-                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="btpnn.h">
-                            <h3 className="text-lg font-medium mb-4" data-oid="652c81r">
+                        <div className="bg-white shadow rounded-lg p-6 mb-6" data-oid="ab..l0d">
+                            <h3 className="text-lg font-medium mb-4" data-oid="jg9.nqd">
                                 联系方式
                             </h3>
-                            <div className="space-y-2 text-gray-700" data-oid="7iwnej4">
-                                <p data-oid="1y3w0az">招生办电话：010-12345678</p>
-                                <p data-oid="mtcdn0f">招生办邮箱：admission@tsinghua.edu.cn</p>
-                                <p data-oid="stmodm0">学校地址：{university.location}</p>
+                            <div className="space-y-2 text-gray-700" data-oid="dfqsi73">
+                                <p data-oid="q1rtwp4">招生办电话：010-12345678</p>
+                                <p data-oid="go6z7.u">招生办邮箱：admission@tsinghua.edu.cn</p>
+                                <p data-oid="kx8e_3j">学校地址：{university.location}</p>
                             </div>
                         </div>
 
-                        <div className="bg-white shadow rounded-lg p-6" data-oid="j_j:y:_">
-                            <h3 className="text-lg font-medium mb-4" data-oid="w7.o18k">
+                        <div className="bg-white shadow rounded-lg p-6" data-oid="t91kiiy">
+                            <h3 className="text-lg font-medium mb-4" data-oid="e9ip0-y">
                                 相似院校推荐
                             </h3>
-                            <ul className="space-y-3" data-oid="cizb-_j">
-                                <li data-oid="yt.1x-h">
+                            <ul className="space-y-3" data-oid="up85dc9">
+                                <li data-oid="gaaop49">
                                     <Link
                                         href="/university/2"
                                         className="text-blue-600 hover:underline"
-                                        data-oid="4cxmyqf"
+                                        data-oid="touxs3s"
                                     >
                                         北京大学
                                     </Link>
-                                    <p className="text-sm text-gray-500" data-oid="_r7n10h">
+                                    <p className="text-sm text-gray-500" data-oid="sp.a:wc">
                                         综合类 985/211
                                     </p>
                                 </li>
-                                <li data-oid="9k1llvx">
+                                <li data-oid="6-5g_0u">
                                     <Link
                                         href="/university/3"
                                         className="text-blue-600 hover:underline"
-                                        data-oid="0et-tj3"
+                                        data-oid="9uz_nab"
                                     >
                                         浙江大学
                                     </Link>
-                                    <p className="text-sm text-gray-500" data-oid="ryw0q3f">
+                                    <p className="text-sm text-gray-500" data-oid="7h.kwtn">
                                         综合类 985/211
                                     </p>
                                 </li>
-                                <li data-oid="vz-oom:">
+                                <li data-oid="5t:dcfm">
                                     <Link
                                         href="/university/4"
                                         className="text-blue-600 hover:underline"
-                                        data-oid="tbim654"
+                                        data-oid="vw0wvcb"
                                     >
                                         复旦大学
                                     </Link>
-                                    <p className="text-sm text-gray-500" data-oid="lxecdrh">
+                                    <p className="text-sm text-gray-500" data-oid="grcaiq-">
                                         综合类 985/211
                                     </p>
                                 </li>
-                                <li data-oid="43jm0nn">
+                                <li data-oid="7t6.hoa">
                                     <Link
                                         href="/university/5"
                                         className="text-blue-600 hover:underline"
-                                        data-oid="gvzek17"
+                                        data-oid="ll18.jm"
                                     >
                                         上海交通大学
                                     </Link>
-                                    <p className="text-sm text-gray-500" data-oid="9qy3ay:">
+                                    <p className="text-sm text-gray-500" data-oid="xbw_w3v">
                                         综合类 985/211
                                     </p>
                                 </li>
@@ -782,10 +782,10 @@ export default function UniversityPage({ params }: { params: { id: string } }) {
             </main>
 
             {/* Footer */}
-            <footer className="bg-white border-t mt-12" data-oid="f0wfmfg">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid=":pp38u:">
-                    <div className="text-center text-gray-500" data-oid="x9-yf1k">
-                        <p data-oid="bl.-kgi">© 2023 河北高考志愿填报服务平台 版权所有</p>
+            <footer className="bg-white border-t mt-12" data-oid="2_xalas">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid=":9-39on">
+                    <div className="text-center text-gray-500" data-oid="0k46x65">
+                        <p data-oid="kcnwtyv">© 2023 河北高考志愿填报服务平台 版权所有</p>
                     </div>
                 </div>
             </footer>
