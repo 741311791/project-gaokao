@@ -15,101 +15,106 @@ export default function ScoreLinesPage() {
     );
 
     return (
-        <div data-oid="_5tlgpj">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="pmvk75x">
+        <div data-oid="n.xvomi">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="g-f5dw2">
                 历年分数线查询
             </h2>
 
-            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="lbq7bev">
+            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="wc:7w3q">
                 <select
                     className="px-4 py-2 border rounded-md"
                     value={yearFilter}
                     onChange={(e) => setYearFilter(e.target.value)}
-                    data-oid="n9yhn4l"
-                    key="olk-8cco"
+                    data-oid="zc29q1w"
                 >
-                    <option value="all" data-oid="qy:fu14">
+                    <option value="all" data-oid="abc3okf">
                         全部年份
                     </option>
-                    <option value="2022" data-oid="-aq7xs4">
+                    <option value="2022" data-oid="izpjymq">
                         2022年
                     </option>
-                    <option value="2021" data-oid="72m69ui">
+                    <option value="2021" data-oid="hedbkqy">
                         2021年
                     </option>
-                    <option value="2020" data-oid="2emkfzq">
+                    <option value="2020" data-oid="ap-6i9s">
                         2020年
                     </option>
                 </select>
-                <div className="flex-grow" data-oid="z421q:p">
+                <div className="flex-grow" data-oid="cg-9ufm">
                     <input
                         type="text"
                         placeholder="搜索高校或专业名称"
                         className="w-full px-4 py-2 border rounded-md"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        data-oid="jyqrooc"
+                        data-oid="6aoreip"
                     />
                 </div>
+                <button
+                    className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+                    data-oid="y8f_t1g"
+                >
+                    查询
+                </button>
             </div>
 
-            <div className="overflow-x-auto" data-oid="p7b_bti">
-                <table className="min-w-full bg-white" data-oid="ttlnhq4">
-                    <thead className="bg-gray-100" data-oid="5r8uowl">
-                        <tr data-oid="elkml7g">
-                            <th className="py-3 px-4 text-left" data-oid="_:ueh33">
+            <div className="overflow-x-auto" data-oid="xte8bdg">
+                <table className="min-w-full bg-white" data-oid="zoymzzc">
+                    <thead className="bg-gray-100" data-oid=":h6zz9g">
+                        <tr data-oid="z.ssazr">
+                            <th className="py-3 px-4 text-left" data-oid="vi1vupz">
                                 高校名称
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="y2fbv5a">
+                            <th className="py-3 px-4 text-left" data-oid="js5l8t9">
                                 专业名称
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="vpo8-bc">
+                            <th className="py-3 px-4 text-left" data-oid="9.6q:.6">
                                 年份
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="0abwa4v">
+                            <th className="py-3 px-4 text-left" data-oid="f:_xy2f">
                                 批次
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="anko4yn">
+                            <th className="py-3 px-4 text-left" data-oid="-g39y1w">
                                 分数线
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="mgaamf.">
+                            <th className="py-3 px-4 text-left" data-oid="md_do_t">
                                 操作
                             </th>
                         </tr>
                     </thead>
-                    <tbody className="divide-y divide-gray-200" data-oid="-5nq-t0">
+                    <tbody className="divide-y divide-gray-200" data-oid="0lb3_06">
                         {filteredScoreLines.map((line, index) => (
-                            <tr key={index} className="hover:bg-gray-50" data-oid="0mbc:7m">
-                                <td className="py-3 px-4" data-oid="q2io621">
+                            <tr key={index} className="hover:bg-gray-50" data-oid="u64wala">
+                                <td className="py-3 px-4" data-oid="57xfse-">
                                     {line.university}
                                 </td>
-                                <td className="py-3 px-4" data-oid="egk7xjx">
+                                <td className="py-3 px-4" data-oid="9corykr">
                                     {line.major}
                                 </td>
-                                <td className="py-3 px-4" data-oid="wdbxuj7">
+                                <td className="py-3 px-4" data-oid="aebhy_g">
                                     {line.year}
                                 </td>
-                                <td className="py-3 px-4" data-oid="9kz18oj">
+                                <td className="py-3 px-4" data-oid="kwu_-g0">
                                     {line.batch}
                                 </td>
                                 <td
                                     className="py-3 px-4 font-medium text-blue-600"
-                                    data-oid="ia8dbd7"
+                                    data-oid="yq:gxpy"
                                 >
                                     {line.score}
                                 </td>
-                                <td className="py-3 px-4" data-oid="d0y7:9o">
+                                <td className="py-3 px-4" data-oid="alc6fz3">
                                     <Link
                                         href="/universities"
                                         className="text-blue-600 hover:underline text-sm mr-3"
-                                        data-oid="k.bnila"
+                                        data-oid="mrzq5s_"
                                     >
                                         查看院校
                                     </Link>
                                     <Link
                                         href="/admission-plans"
                                         className="text-blue-600 hover:underline text-sm"
-                                        data-oid="xc9kac3"
+                                        data-oid="b04.812"
                                     >
                                         查看招生计划
                                     </Link>

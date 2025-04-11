@@ -5,8 +5,8 @@ import AdmissionPlansPage from '../components/admissionPlans/AdmissionPlansPage'
 
 export default function Page() {
     return (
-        <MainLayout data-oid="-4ujii3">
-            <AdmissionPlansPage data-oid="ai_vag-" />
+        <MainLayout data-oid="81vfdj:">
+            <AdmissionPlansPage data-oid="r4u.:8p" />
         </MainLayout>
     );
 }

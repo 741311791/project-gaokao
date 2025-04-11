@@ -5,8 +5,8 @@ import UniversitiesPage from '../components/universities/UniversitiesPage';
 
 export default function Page() {
     return (
-        <MainLayout data-oid="berzgw2">
-            <UniversitiesPage data-oid="2ofo5t-" />
+        <MainLayout data-oid="22lob43">
+            <UniversitiesPage data-oid="0fx:grj" />
         </MainLayout>
     );
 }

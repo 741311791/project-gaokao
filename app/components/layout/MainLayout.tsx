@@ -1,20 +1,23 @@
 'use client';
 
+import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-type MainLayoutProps = {
+interface MainLayoutProps {
     children: React.ReactNode;
-};
+}
 
 export default function MainLayout({ children }: MainLayoutProps) {
     return (
-        <div className="min-h-screen bg-gray-50" data-oid="q3mm.jv">
-            <Header data-oid="1a6fh-p" />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-oid="yeqd85m">
-                {children}
+        <div className="flex flex-col min-h-screen" data-oid="y-g6s_1">
+            <Header data-oid="prah-ql" />
+            <main className="flex-grow" data-oid="s.5qszi">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6" data-oid=".329nww">
+                    {children}
+                </div>
             </main>
-            <Footer data-oid="ipzqdi6" />
+            <Footer data-oid="3g7b6af" />
         </div>
     );
 }

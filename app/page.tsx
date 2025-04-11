@@ -5,8 +5,8 @@ import HomePage from './components/home/HomePage';
 
 export default function Page() {
     return (
-        <MainLayout data-oid="7ky5ku3">
-            <HomePage data-oid="_tfim34" />
+        <MainLayout data-oid="01g0-py">
+            <HomePage data-oid="yoqa_5i" />
         </MainLayout>
     );
 }

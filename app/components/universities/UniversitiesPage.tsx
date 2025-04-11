@@ -18,41 +18,41 @@ export default function UniversitiesPage() {
     );
 
     return (
-        <div data-oid=".i-.txo">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="s5yr:18">
+        <div data-oid="9gal:r1">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="fvyupzz">
                 高校信息查询
             </h2>
 
-            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="m54f0hm">
-                <div className="flex-grow" data-oid="8ac6n8b">
+            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="2_8i1z-">
+                <div className="flex-grow" data-oid="6kjd9h7">
                     <input
                         type="text"
                         placeholder="搜索高校或专业名称"
                         className="w-full px-4 py-2 border rounded-md"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        data-oid="vg-6sit"
+                        data-oid="8gm_n4y"
                     />
                 </div>
-                <div className="flex gap-2" data-oid="zfjceh-">
+                <div className="flex gap-2" data-oid="33rxqya">
                     <button
                         className={`px-4 py-2 rounded-md ${filterType === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
                         onClick={() => setFilterType('all')}
-                        data-oid="5vl2p28"
+                        data-oid="p:i8hqz"
                     >
                         全部
                     </button>
                     <button
                         className={`px-4 py-2 rounded-md ${filterType === 'universities' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
                         onClick={() => setFilterType('universities')}
-                        data-oid="6xywpme"
+                        data-oid="gvh:vpg"
                     >
                         高校
                     </button>
                     <button
                         className={`px-4 py-2 rounded-md ${filterType === 'majors' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
                         onClick={() => setFilterType('majors')}
-                        data-oid="sa3bzwp"
+                        data-oid="s6cxizv"
                     >
                         专业
                     </button>
@@ -60,13 +60,13 @@ export default function UniversitiesPage() {
             </div>
 
             {(filterType === 'all' || filterType === 'universities') && (
-                <div className="mb-8" data-oid="wj8oq99">
-                    <h3 className="text-xl font-semibold mb-4" data-oid="1jypwno">
+                <div className="mb-8" data-oid="d.37was">
+                    <h3 className="text-xl font-semibold mb-4" data-oid="wwu-098">
                         高校列表
                     </h3>
                     <div
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-                        data-oid="tim.acw"
+                        data-oid="s6n7-8a"
                     >
                         {filteredUniversities.map((uni) => (
                             <UniversityCard
@@ -76,7 +76,7 @@ export default function UniversitiesPage() {
                                 location={uni.location}
                                 type={uni.type}
                                 tags={uni.tags}
-                                data-oid="398z0a5"
+                                data-oid="tok9xc-"
                             />
                         ))}
                     </div>
@@ -84,13 +84,13 @@ export default function UniversitiesPage() {
             )}
 
             {(filterType === 'all' || filterType === 'majors') && (
-                <div data-oid="n_h508l">
-                    <h3 className="text-xl font-semibold mb-4" data-oid="4gt6lmu">
+                <div data-oid="ieeocew">
+                    <h3 className="text-xl font-semibold mb-4" data-oid="l:n67go">
                         专业列表
                     </h3>
                     <div
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-                        data-oid="3pe7rkv"
+                        data-oid="t_bydt3"
                     >
                         {filteredMajors.map((major) => (
                             <MajorCard
@@ -99,7 +99,7 @@ export default function UniversitiesPage() {
                                 name={major.name}
                                 category={major.category}
                                 tags={major.tags}
-                                data-oid="t4ncq1m"
+                                data-oid="9jqpif-"
                             />
                         ))}
                     </div>

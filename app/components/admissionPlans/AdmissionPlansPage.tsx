@@ -15,97 +15,103 @@ export default function AdmissionPlansPage() {
     );
 
     return (
-        <div data-oid="_8e0smk">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="3yc_vji">
+        <div data-oid="n95eu9j">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6" data-oid="3keobtj">
                 历年招生计划查询
             </h2>
 
-            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="jpqwapy">
-                <div className="flex-grow" data-oid="7v3vf4e">
+            <div className="mb-6 flex flex-col md:flex-row gap-4" data-oid="p2gslrb">
+                <select
+                    className="px-4 py-2 border rounded-md"
+                    value={yearFilter}
+                    onChange={(e) => setYearFilter(e.target.value)}
+                    data-oid="taczq-z"
+                >
+                    <option value="all" data-oid="j.ipll8">
+                        全部年份
+                    </option>
+                    <option value="2022" data-oid="6-5i1ch">
+                        2022年
+                    </option>
+                    <option value="2021" data-oid="qgex:6r">
+                        2021年
+                    </option>
+                    <option value="2020" data-oid="-0mbdxe">
+                        2020年
+                    </option>
+                </select>
+                <div className="flex-grow" data-oid="dyx.:y1">
                     <input
                         type="text"
                         placeholder="搜索高校或专业名称"
                         className="w-full px-4 py-2 border rounded-md"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        data-oid="obo.fl1"
+                        data-oid="-n1-x_z"
                     />
                 </div>
-                <select
-                    className="px-4 py-2 border rounded-md"
-                    value={yearFilter}
-                    onChange={(e) => setYearFilter(e.target.value)}
-                    data-oid="azau:eh"
+                <button
+                    className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+                    data-oid="90701lb"
                 >
-                    <option value="all" data-oid="lv4ql1e">
-                        全部年份
-                    </option>
-                    <option value="2022" data-oid="_kxjt.8">
-                        2022年
-                    </option>
-                    <option value="2021" data-oid="1c9oc15">
-                        2021年
-                    </option>
-                    <option value="2020" data-oid="fp6ppl1">
-                        2020年
-                    </option>
-                </select>
+                    查询
+                </button>
             </div>
 
-            <div className="overflow-x-auto" data-oid="zq34xt5">
-                <table className="min-w-full bg-white" data-oid="h7ls-5o">
-                    <thead className="bg-gray-100" data-oid="y9fyom1">
-                        <tr data-oid=".h6:1q_">
-                            <th className="py-3 px-4 text-left" data-oid="8wvnaya">
+            <div className="overflow-x-auto" data-oid=".e-0sf8">
+                <table className="min-w-full bg-white" data-oid="7jlfi4e">
+                    <thead className="bg-gray-100" data-oid="95ek:mf">
+                        <tr data-oid="j413tv0">
+                            <th className="py-3 px-4 text-left" data-oid="7:.vf.m">
                                 高校名称
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="vzz7eh1">
+                            <th className="py-3 px-4 text-left" data-oid="s0kye_:">
                                 专业名称
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="mm0j7u3">
+                            <th className="py-3 px-4 text-left" data-oid="1iz4il3">
                                 年份
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="af6-9iu">
+                            <th className="py-3 px-4 text-left" data-oid="0guzk7m">
                                 计划招生
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="i.y6.jk">
+                            <th className="py-3 px-4 text-left" data-oid="xjcxyf.">
                                 实际招生
                             </th>
-                            <th className="py-3 px-4 text-left" data-oid="990ymv7">
+                            <th className="py-3 px-4 text-left" data-oid="ojij4.0">
                                 操作
                             </th>
                         </tr>
                     </thead>
-                    <tbody className="divide-y divide-gray-200" data-oid="vg2rhch">
+                    <tbody className="divide-y divide-gray-200" data-oid="arpv0zv">
                         {filteredAdmissionPlans.map((plan, index) => (
-                            <tr key={index} className="hover:bg-gray-50" data-oid="68zm-yn">
-                                <td className="py-3 px-4" data-oid="o8x_7al">
+                            <tr key={index} className="hover:bg-gray-50" data-oid="eqphrat">
+                                <td className="py-3 px-4" data-oid="b04hyg8">
                                     {plan.university}
                                 </td>
-                                <td className="py-3 px-4" data-oid="61-ek7:">
+                                <td className="py-3 px-4" data-oid="8s_o12h">
                                     {plan.major}
                                 </td>
-                                <td className="py-3 px-4" data-oid="nh5l_27">
+                                <td className="py-3 px-4" data-oid="ncqn9gk">
                                     {plan.year}
                                 </td>
-                                <td className="py-3 px-4" data-oid="nn8q77p">
+                                <td className="py-3 px-4" data-oid="eoxrezm">
                                     {plan.plan}
                                 </td>
-                                <td className="py-3 px-4" data-oid="tnm5zcw">
+                                <td className="py-3 px-4" data-oid="bdex_0p">
                                     {plan.actual}
                                 </td>
-                                <td className="py-3 px-4" data-oid="b.06paf">
+                                <td className="py-3 px-4" data-oid=".6zub2g">
                                     <Link
                                         href="/universities"
                                         className="text-blue-600 hover:underline text-sm mr-3"
-                                        data-oid=":ecv.0p"
+                                        data-oid="51kh2fq"
                                     >
                                         查看院校
                                     </Link>
                                     <Link
                                         href="/score-lines"
                                         className="text-blue-600 hover:underline text-sm"
-                                        data-oid="l3osvxj"
+                                        data-oid="lztptc:"
                                     >
                                         查看分数线
                                     </Link>
